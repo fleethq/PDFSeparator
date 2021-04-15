@@ -10,7 +10,10 @@
         "dependencies": {
           "Emgu.CV": "4.4.0.4099",
           "Emgu.CV.Bitmap": "4.4.0.4099",
-          "PDFSeperatorML.Model": "1.0.0",
+          "Microsoft.ML": "1.5.0-preview2",
+          "Microsoft.ML.ImageAnalytics": "1.5.0-preview2",
+          "Microsoft.ML.Vision": "1.5.0-preview2",
+          "SciSharp.TensorFlow.Redist": "1.14.0",
           "itext7": "7.1.13",
           "xunit.extensibility.core": "2.4.1"
         },
@@ -1297,17 +1300,6 @@
             "fileVersion": "2.4.1.0"
           }
         }
-      },
-      "PDFSeperatorML.Model/1.0.0": {
-        "dependencies": {
-          "Microsoft.ML": "1.5.0-preview2",
-          "Microsoft.ML.ImageAnalytics": "1.5.0-preview2",
-          "Microsoft.ML.Vision": "1.5.0-preview2",
-          "SciSharp.TensorFlow.Redist": "1.14.0"
-        },
-        "runtime": {
-          "PDFSeperatorML.Model.dll": {}
-        }
       }
     }
   },
@@ -2177,11 +2169,6 @@
       "sha512": "sha512-yKZKm/8QNZnBnGZFD9SewkllHBiK0DThybQD/G4PiAmQjKtEZyHi6ET70QPU9KtSMJGRYS6Syk7EyR2EVDU4Kg==",
       "path": "xunit.extensibility.core/2.4.1",
       "hashPath": "xunit.extensibility.core.2.4.1.nupkg.sha512"
-    },
-    "PDFSeperatorML.Model/1.0.0": {
-      "type": "project",
-      "serviceable": false,
-      "sha512": ""
     }
   }
 }
